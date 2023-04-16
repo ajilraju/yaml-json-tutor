@@ -1,0 +1,18 @@
+---
+person:
+  name: Mike
+  age: 30
+  address:
+    streetname: ABC
+    number: 1
+    zipcode: 123ABC1
+    City: NY
+    country: USA
+  hobbies:
+    - cricket
+    - chess
+    - music:
+        - pop:
+            Taylor Swift
+        - electronic
+
