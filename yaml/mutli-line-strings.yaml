@@ -1,0 +1,46 @@
+---
+# Multi-line strings: Folding and Chomping
+
+#Folding:
+#   Dealing with new lines in multi-line strings
+#   Folding is a technique that removes any newlines within a scalar and
+#   replaces them with spaces. 
+#
+# > : A folded string is a multi-line string where line breaks within the 
+#     string are converted to spaces, except for line breaks at the end of a line, 
+#     which are preserved.
+#
+# | : A literal string is a multi-line string where all line breaks are preserved, 
+#     including any leading or trailing whitespace.
+#
+# Chomping:
+#   How to deal with trailling newlines in multi-line strings
+#   Chomping is a technique that controls how newlines at the end of a scalar are handled.
+
+Abraham_Lincoln_Quotes: >
+  * In the end, it is not the years in your life that count. it is the life in your years.
+  * Nearly all men can stand adversity, but if you want to test a man's character, give him power.
+  * The best way to predict your future is to create it.
+
+sep: ---------------------
+
+Abraham_Lincoln_Quotes2: |
+  * In the end, it is not the years in your life that count. it is the life in your years.
+  * Nearly all men can stand adversity, but if you want to test a man's character, give him power.
+  * The best way to predict your future is to create it.
+
+Abraham_Lincoln_Quotes_chomp: |+
+  * In the end, it is not the years in your life that count. it is the life in your years.
+  * Nearly all men can stand adversity, but if you want to test a man's character, give him power.
+  * The best way to predict your future is to create it.
+
+
+
+
+Abraham_Lincoln_Quotes_chomp2: >+
+  * In the end, it is not the years in your life that count. it is the life in your years.
+  * Nearly all men can stand adversity, but if you want to test a man's character, give him power.
+  * The best way to predict your future is to create it.
+
+
+
