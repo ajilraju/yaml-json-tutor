@@ -1,0 +1,7 @@
+---
+tool: yaml  # quotes not required
+version: 1.2
+is_valid: true
+blackhole: null
+empty: ~
+description: "data serialization language"
