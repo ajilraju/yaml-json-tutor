@@ -1,0 +1,26 @@
+{
+  "name": "Central University",
+  "address": {
+    "street": "123 Main Square",
+    "city": "Kottayam",
+    "state": "Kerala",
+    "zip": "685533"
+  },
+  "studentCount": 1000,
+  "departments": ["Computer Science", "Commerce", "Geology", "Mathematics"],
+  "startYear": "2023-02-02",
+  "randomStudents": [
+    {
+      "name": "Thomas",
+      "age": 23,
+      "department": "Computer Science",
+      "marks": [22, 32, 35, 22]
+    },
+    {
+      "name": "Kevin",
+      "age": 22,
+      "department": "Mathematics",
+      "marks": [22, 32, 35, 22]
+    }
+  ]
+}

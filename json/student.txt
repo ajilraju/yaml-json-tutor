@@ -1,0 +1,8 @@
+* The name of the university is Central University.
+* It is located at 123 Main Square, Kottayam, Kerala, with a zip code of 685533.
+* The university has a student count of 1000.
+* The university offers courses in four departments: Computer Science, Commerce, Geology, and Mathematics.
+* The university started on February 2nd, 2023.
+* The data also includes information about two random students named Thomas and Kevin.
+* Thomas is 23 years old and is studying Computer Science. His marks in his courses are 22, 32, 35, and 22.
+* Kevin is 22 years old and is studying Mathematics. His marks in his courses are also 22, 32, 35, and 22.
